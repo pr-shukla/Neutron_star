@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import odeint
 
+# Defining a function for derivative 
+
 def f(y,t, params):
 	d, omega = y
 	n, k = params
