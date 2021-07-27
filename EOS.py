@@ -27,6 +27,8 @@ params = [G, gamma, k]
 
 y0 = [rho0, omega0]
 
+# Different Range of Radius in numpy
+
 r = np.arange(0.001,  2000000000, 1000000) 
 
 mi = rho0*4*np.pi*r[0]**3/3 																																																																																																																						
