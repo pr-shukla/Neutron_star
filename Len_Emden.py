@@ -17,7 +17,9 @@ omega0 = 0.0
 
 y0 = [d0, omega0]
 
-#p = float(input("Enter the range upto which you want plot:"))
+
+# Timeseries upto 12 units of time
+#  
 t = np.arange(0.0001, 12, 0.01)
 
 psoln = odeint(f, y0, t, args=(params,))
